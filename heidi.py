@@ -1,12 +1,14 @@
-def c():
-  print("I am function c")
+def count_down(n):
+    # Base case
+    if n == 0:
+        return
 
-def b():
-  print("I am function b")
-  c()
+    # Work need to be done before entering into recursive call.
+    print(f"Entering {n}")
 
-def a():
-  print("I am function a")
-  b()
+    # Recursive case
+    count_down(n-1)
 
-a()
+    # Work need to be done before entering into recursive call.
+    print(f"Leaving {n}")
+count_down(3)
