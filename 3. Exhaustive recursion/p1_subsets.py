@@ -4,6 +4,7 @@
 # the possible subsets are {}, {x}, {y}, {z}, {x, y}, {y, z}, {z, x} or {x, y, z}.
 # Observe that there is an empty set.
 
+# Look at the concepts folder for more info
 def subsets(elements):
     # Step 1: Base case
     # Here, why you need to return [[]], not []?
