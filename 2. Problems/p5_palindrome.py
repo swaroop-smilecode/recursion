@@ -7,4 +7,5 @@ def palindrome(s):
   # The reason is slicing out of bound indexes will give to "" 
   # & you are handling this "" in the base case.
   return s[0] == s[-1] and palindrome(s[1:-1])
-  
+
+palindrome("pop") # -> True
