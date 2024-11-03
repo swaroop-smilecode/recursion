@@ -14,8 +14,12 @@ def permutations(items):
     
     return result
 
-print(permutations(['red', 'blue'])) # ->
+permutations(['a', 'b', 'c']) # -> 
 # [ 
-#   [ 'red', 'blue' ], 
-#   [ 'blue', 'red' ] 
-# ]
+#   [ 'a', 'b', 'c' ], 
+#   [ 'b', 'a', 'c' ], 
+#   [ 'b', 'c', 'a' ], 
+#   [ 'a', 'c', 'b' ], 
+#   [ 'c', 'a', 'b' ], 
+#   [ 'c', 'b', 'a' ] 
+# ] 
